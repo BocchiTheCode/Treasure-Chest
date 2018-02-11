@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+img{
+    max-height: 200px;
+    max-width: 200px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+}
+#button{
+    width: auto;
+    height: 50px;
+    font-size: 1.4em;
+    background-color: white;
+    color: black;
+    visibility: hidden;
+}
+img:hover{
+    border-color: white;
+    border-style: dotted;
+}
+img.choice{
+    border-color: greenyellow;
+}
+img.wrong{
+    border-color: red;
+}
